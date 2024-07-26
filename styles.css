@@ -90,6 +90,67 @@
 
 /* section 3 */
 
+.info-header {
+    font-size: 36px;
+    font-weight: 750;
+    color: #1F2937;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.info-squares {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.square {
+    border: solid 4px #3882F6;
+    border-radius: 15px;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.info-subtext {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 8px;
+    padding-bottom: 150px;
+}
+
+.info-sub {
+    width: 150px;
+    color: gray;
+}
+
+/* section 4 */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 385px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 20px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
 ul {
     list-style: none;
     display: flex;
